@@ -9,3 +9,27 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: url(totoro.png); /* Reemplaza 'ruta/totoro.jpg' con la ruta de tu imagen de Totoro */
+    background-size: contain;
+}
+
+span {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin: 10px;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: medium;
+}
